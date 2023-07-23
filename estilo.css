@@ -1,0 +1,126 @@
+/*Limpar formatações padrão*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fffffe;
+}
+
+/*
+**** Layout ****
+*/
+#Area-Cabecalho {
+    background-color: #a7a9be;
+    padding: 15px;
+    text-align: center;
+}
+
+#Area-Logo, #Area-Menu {
+    padding: 10px;
+}
+
+#Area-Principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#Area-Postagens {
+    width: 660px;
+    float: left;
+}
+
+#Area-Lateral {
+    width: 240px;
+    float: right;  
+}
+
+.Postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ff8906;
+}
+
+.Conteudo-Lateral {
+    color: white;
+    background: black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.Postagem-Lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #fffffe;
+}
+
+#Rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #a7a9be;
+}
+
+/* 
+**** Formatação do Menu ****
+*/
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #fffffe;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+#Area-Cabecalho a:link, #Area-Cabecalho a:visited {
+    color: #fffffe;
+    padding: 8px 12px;
+}
+
+#Area-Cabecalho a:hover {
+  color: #fffffe;
+  background: #0f0e17;
+  text-decoration: none;  
+}
+
+/*
+**** Formatações em Geral ****
+*/
+
+h1 {
+    color: black;
+    font-size: 2.5em;
+}
+
+h3 {
+    color: #fffffe;
+}
+
+h4 {
+    color: #fffffe;
+    background: black;
+    padding: 5px;
+}
+
+.Branco {
+    color: #fffffe;
+}
+
+.Data-Postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #0f0e17;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;  
+}
+
